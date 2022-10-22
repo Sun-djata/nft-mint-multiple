@@ -1,5 +1,7 @@
 
 ;; my-nft
+;; This NFT contract provides the possibility to mint multiple NFT for the recipient in one call.
+;; the number of NFT ist set by the length of the list passed on to the function call as parameter 
 
 (impl-trait .sip-009-trait.sip-009-trait)
 
@@ -52,8 +54,13 @@
 )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+<<<<<<< HEAD
 ;; here I am creating a multimint funktion which is able to mint as much as is wanted whith one call
 ;; using the map function over a list. the length of the list determines the amount to be minted
+=======
+;; here I am creating a multiple mint function which is able to mint as much as is wanted whith one call
+;; using the map function over a list. the length of the list determines the amount of NFT to be minted
+>>>>>>> 04707c4 (comment)
 
 (define-private (mint-helper (factor uint))
   (let 

@@ -52,7 +52,7 @@
 )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; here I am creating a multimint funktion which should is able to mint as much as is wanted whith one call
+;; here I am creating a multimint funktion which is able to mint as much as is wanted whith one call
 ;; using the map function over a list. the length of the list determines the amount to be minted
 
 (define-private (mint-helper (factor uint))

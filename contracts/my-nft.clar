@@ -54,13 +54,8 @@
 )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-<<<<<<< HEAD
 ;; here I am creating a multimint funktion which is able to mint as much as is wanted whith one call
 ;; using the map function over a list. the length of the list determines the amount to be minted
-=======
-;; here I am creating a multiple mint function which is able to mint as much as is wanted whith one call
-;; using the map function over a list. the length of the list determines the amount of NFT to be minted
->>>>>>> 04707c4 (comment)
 
 (define-private (mint-helper (factor uint))
   (let 
